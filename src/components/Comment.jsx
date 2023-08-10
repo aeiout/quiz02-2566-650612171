@@ -1,7 +1,7 @@
 import { comments } from "@/libs/comments";
 import { Reply } from "./Reply";
 import { useState } from "react";
-const [isLikeShown,setIsLikeShown]= useState(false);
+// const [isLikeShown,setIsLikeShown]= useState(false);
 export const Comment = ({
   userImagePath,
   username,
@@ -12,9 +12,9 @@ export const Comment = ({
 
   
   
-  if(likeNum !== 0) {
-  setIsLikeShown=(!isLikeShown);
-}
+//   if(likeNum !== 0) {
+//   setIsLikeShown=(!isLikeShown);
+// }
   return (
     <div>
       <div className="d-flex gap-2 my-2">
